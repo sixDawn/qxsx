@@ -1,0 +1,221 @@
+@charset "utf-8";
+/* CSS Document */
+#header{
+	width:100%;
+	overflow:hidden;
+	position:relative;
+	font-family:"微软雅黑";
+	}
+.banner img{
+	margin:0 auto;
+	}
+.container img{
+	position:absolute;
+	top:33px;
+	left:53px;	
+	}
+.maintext{
+	position:absolute;
+	top:290px;
+	left:640px;
+	color:#339999;
+	font-size:40px;
+	}
+.subtext{
+	position:absolute;
+	top:345px;
+	left:760px;
+	color:#339999;
+	font-size:16px;
+	}
+.leftbox{
+	position:absolute;
+	top:420px;
+	left:450px;
+	width:248px;
+	height:54px;
+	border:1px solid #288585;
+	border-radius:10px;
+	}
+.leftbox p{
+	text-align:center;
+	line-height:52px;
+	color:#289ea2;
+	font-size:14px;
+	}
+.rightbox{
+	position:absolute;
+	top:420px;
+	left:752px;
+	width:248px;
+	height:54px;
+	border:1px solid #288585;
+	border-radius:10px;
+	}
+.rightbox p{
+	text-align:center;
+	line-height:52px;
+	color:#289ea2;
+	font-size:14px;
+	}
+	
+
+#content{
+	width:100%;
+	background:#fff;
+	}
+#middle{
+	width:960px;
+	overflow:hidden;
+	margin:0 auto;
+	margin-top:180px;
+	}
+.topbox{
+	overflow:hidden;
+	}
+.leftphone{
+	float:left;
+	margin-top:22px;
+	margin-left:67px;
+	width:195px;
+	}
+.righttext{
+	float:left;
+	margin-left:230px;
+	}
+.mtext{
+	font-size:36px;
+	color:#13d0ca;
+	margin-top:150px;
+	}
+.guild{
+	margin-top:10px;
+	width:227px;
+	height:1px;
+	background:#01a8a3;
+	}
+.smalltext{
+	margin-top:15px;
+	font-size:12px;
+	color:#a3a2b2;
+	}
+.righttext h1{
+	font-size:16px;
+	margin-top:25px;
+	color:#474e59;
+	line-height:3px;
+	}
+.downline{
+	width:864px;
+	height:1px;
+	background:#e8e8e8;
+	margin:0 auto;
+	margin-top:30px;
+	}
+
+.secondbox{
+	margin-top:7px;
+	overflow:hidden;
+	}
+.lefttext{
+	margin-left:67px;
+	float:left;
+	margin-top:204px;
+	}
+.title{
+	color:#018be4;
+	font-size:36px;
+	}
+.secondguild{
+	margin-top:10px;
+	width:227px;
+	height:1px;
+	background:#006db3;
+	}
+.smtext{
+	margin-top:15px;
+	font-size:12px;
+	color:#a3a2b2;
+	}
+.lefttext h1{
+	font-size:16px;
+	margin-top:25px;
+	color:#474e59;
+	line-height:3px;
+	}
+.rightphone{
+	float:left;
+	margin-left:53px;
+	margin-top:22px;
+	}
+.secondline{
+	width:864px;
+	height:1px;
+	background:#e8e8e8;
+	margin:0 auto;
+	margin-top:30px;
+	}
+	
+.mtexta{
+	font-size:36px;
+	color:#e74543;
+	margin-top:150px;
+	}
+.guilda{
+	margin-top:10px;
+	width:227px;
+	height:1px;
+	background:#ba0402;
+	}
+.titleb{
+	color:#51a0e5;
+	font-size:36px;
+	}
+.secondguildb{
+	margin-top:10px;
+	width:227px;
+	height:1px;
+	background:#0e76d1;
+	}
+
+	
+.mtextb{
+	font-size:36px;
+	color:#9f2113;
+	margin-top:120px;
+	}
+.guildb{
+	margin-top:10px;
+	width:227px;
+	height:1px;
+	background:#690900;
+	}
+.lefttexts{
+	float:left;
+	margin-left:60px;
+	}
+.titlec{
+	margin-top:10px;
+	color:#1d2a54;
+	font-size:36px;
+	}
+.secondguildc{
+	margin-top:10px;
+	width:227px;
+	height:1px;
+	background:#001455;
+	}
+.rightphonev{
+	float:left;
+	margin-left:18px;
+	margin-top:22px;
+	}
+.secondlinea{
+	width:864px;
+	height:1px;
+	background:#e8e8e8;
+	margin:0 auto;
+	margin-top:30px;
+	margin-bottom:117px;
+	}
+

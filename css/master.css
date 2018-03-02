@@ -1,0 +1,311 @@
+@charset "utf-8";
+/* CSS Document */
+#header{
+	width:100%;
+	}
+.top{
+	width:100%;
+	position:relative;
+	}
+.banner1{
+	width:100%;
+	}
+.logo-text{
+	width:1000px;
+	position:absolute;
+	top:0;
+	left:50%;
+	margin-left:-500px;
+	}
+.logo{
+	float:right;
+	margin-top:36px;
+	margin-right:-80px;
+}
+.title1{
+	margin-top:160px;
+	margin-left:70px;
+	color:#fff;
+	font-size:40px;
+}
+.title2{
+	margin-top:10px;
+	margin-left:248px;
+	color:#fff;
+	font-size:40px;
+	}
+.box{
+	width:570px;
+	margin:0 auto;
+	margin-top:20px;
+}
+.leftbox{
+	float:left;
+	width:243px;
+	height:54px;
+	border:2px solid #fff;
+	border-radius:10px;
+	}
+.leftbox p{
+	line-height:54px;
+	text-align:center;
+	color:#fff;
+	font-size:14px;
+	}
+.rightbox{
+	float:left;
+	margin-left:40px;
+	width:243px;
+	height:54px;
+	border:2px solid #fff;
+	border-radius:5px;
+	}
+.rightbox p{
+	line-height:54px;
+	text-align:center;
+	color:#fff;
+	font-size:14px;
+	}
+
+#container{
+	width:100%;
+	background:#fff;
+	}
+.content{
+	width:1000px;
+	margin:0 auto;
+	overflow:hidden;
+	}
+.maintitle{
+	font-size:26px;
+	color:#666666;
+	text-align:center;
+	margin-top:43px;
+	margin-bottom:46px;
+	}
+.word{
+	margin-left:175px;
+	width:645px;
+	}
+.word h1{
+	font-size:14px;
+	color:#666666;
+	line-height:25px;
+	}
+.guild{
+	margin-top:80px;
+	}
+.ltline{
+	float:left;
+	margin-left:8px;
+	width:455px;
+	height:1px;
+	background:#ebebeb;
+	margin-top:15px;
+	}
+.guild img{
+	float:left;
+	margin-left:19px;
+	margin-bottom:16px;
+	}
+.rtline{
+	float:left;
+	margin-left:19px;
+	width:455px;
+	height:1px;
+	background:#ebebeb;
+	margin-top:15px;
+	}
+	
+.content1{
+	width:1000px;
+	margin:0 auto;
+	}
+.ertitle p{
+	text-align:center;
+	font-size:26px;
+	color:#484848;
+	}
+.wrap{
+	margin-top:15px;
+	overflow:hidden;
+	}
+.ltwrap{
+	float:left;
+	width:235px;
+	}
+.tphone{
+	margin-left:124px;
+	}
+.dphone{
+	margin-left:24px;
+	}
+.rtwrap{
+	float:left;
+	margin-left:102px;
+	margin-top:40px;
+	width:655px;
+	}
+.rtwrap p{
+	font-size:19px;
+	color:#484848;
+	margin-bottom:22px;
+	}
+.rtwrap h1{
+	font-size:14px;
+	color:#7c7770;
+	line-height:31px;
+	}
+.erline{
+	width:985px;
+	height:1px;
+	background:#f0f0f0;
+	margin-top:11px;
+	margin-left:8px;
+	}
+.middle{
+	margin-top:46px;
+	margin-left:8px;
+	width:1000px;
+	}
+.leftmiddle{
+	float:left;
+	margin-left:10px;
+	width:595px;
+	}
+.ltmiddle{
+	font-size:19px;
+	color:#484848;
+	margin-bottom:28px;
+	}
+.middle h1{
+	color:#7c7770;
+	font-size:13px;
+	line-height:33px;
+	}
+.ti{
+	float:left;
+	margin-left:34px;
+	}
+	
+.threeline{
+	margin-top:151px;
+	width:1000px;
+	}
+.smaline{
+	float:left;
+	margin-left:8px;
+	width:455px;
+	height:1px;
+	background:#ebebeb;
+	margin-top:15px;
+	}
+.threeline img{
+	float:left;
+	margin-left:22px;
+	}
+.rtsmaline{
+	float:left;
+	margin-left:22px;
+	width:455px;
+	height:1px;
+	background:#ebebeb;
+	margin-top:15px;
+	}
+.maintext{
+	margin-top:15px;
+	width:1000px;
+	overflow:hidden;
+	}
+.maintext p{
+	font-size:26px;
+	text-align:center;
+	margin-bottom:7px;
+	}
+/*join*/
+.job{
+	width:1000px;
+	margin:0 auto;
+}
+.job-sw{
+	float:left;
+	background:url(../images/shangwu.png) no-repeat;
+	height:567px;
+	width:364px;
+	margin-right:2px;
+}
+.left-container{
+	padding-top:144px;
+	margin-left:25px;
+}
+.left-container h1{
+	font-size:26px;
+	color:#339999;
+	text-align:center;
+	margin-bottom:10px;
+}
+.left-container h2{
+	font-size:14px;
+	color:#339999;
+	text-align:center;
+	margin-top:10px;
+	margin-bottom:10px;
+}
+.left-container p{
+	width:312px;
+	line-height:20px;
+	font-size:14px;
+}
+.job-web{
+	float:left;
+	background:url(../images/qianduan.png) no-repeat;
+	height:503px;
+	width:317px;
+	margin-top:312px;
+}
+.job-yw{
+	float:left;
+	background:url(../images/gongchengshi.png) no-repeat;
+	height:503px;
+	width:317px;
+}
+.job-web .left-container p,.job-yw .left-container p{
+	width:264px;
+}
+.job-web .left-container h2{
+	margin-bottom:5px;
+	margin-top:5px;
+}
+/**/
+.contact-us{ width:1000px; margin-left:auto; margin-right:auto; margin-top:60px;}
+.our{ overflow:hidden;}
+.our span{ width:463px; background-color:#ebebeb; height:1px; float:left; margin-top:15px;}
+.our img{ float:left; margin-left:22px; margin-right:22px;}
+.contact-us h1{ font-size:26px; color:#484848; text-align:center; margin-top:18px; margin-bottom:70px;}
+.contact-box{ width:702px; height:275px; background:url(../images/kuangzi.png) no-repeat; margin-left:auto; margin-right:auto; position:relative;}
+.contact-box ul{ padding-top:61px; margin-left:40px;}
+.contact-box li{ color:#7c7770; font-size:18px; margin-bottom:42px;}
+.contact-box img{ position:absolute; right:100px; top:65px;}
+.bottom-line{ display:block; margin-left:auto; margin-right:auto; margin-top:66px; margin-bottom:28px;}
+.contact-us p{color:#7c7770; font-size:16px; text-align:center; padding-bottom:70px;}
+/*页脚*/
+#top:hover{
+	cursor:pointer;
+}
+#footer{
+	width:100%;
+	background:#222222;
+	overflow:hidden;
+	}
+.copyright p{
+	float:left;
+	margin-left:150px;
+	color:#fff;
+	line-height:95px;
+	font-size:16px;
+	}
+.copyright img{
+	float:right;
+	margin-right:145px;
+	margin-top:22px;
+	}

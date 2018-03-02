@@ -1,0 +1,37 @@
+.jqbar{position: relative;top: 100px;}
+.jqbar.vertical{text-align: center;display: inline-block;}
+.jqbar.vertical span{display: block;font-size: 11px;font-weight: bold;}
+.jqbar.vertical .bar-percent{font-size: 11px;font-weight: bold;position: absolute;height: 20px;margin-bottom: 5px;width: 100%;}
+.jqbar.vertical .bar-level-wrapper{position: relative;display: inline-block;overflow: hidden;}
+.jqbar.vertical .bar-level{position: absolute;}
+
+/*horizontal*/
+.jqbar.horizontal span{display: inline-block;margin-left: 5px;font-size: 11px;font-weight: bold;}
+.jqbar.horizontal .bar-percent{font-size: 11px;font-weight: bold;height: 20px;margin-bottom: 5px;}
+/*柱状图*/
+#bar-7{top: 50px;margin-right:30px;}
+#bar-8{top: 50px; margin-right:30px;}
+#bar-9{top: 50px;}
+#bar-10{top: 50px;}
+#bar-11{top: 50px;}
+#bar-12{top: 50px;}
+#bar-13{top: 50px;}
+#bar-14{top: 50px;}
+.bars1{ float:left;
+	margin-left:30px;
+}
+.bars{
+	float:right;
+}
+.bars h1,.bars1 h1{
+	margin-top:80px;
+	font-size:16px;
+}
+.bars h1 span,.bars1 h1 span{
+	font-weight:bold;
+}
+.bars h2,.bars1 h2{
+	float:left;
+	padding-top:80px;
+	padding-left:50px;
+}

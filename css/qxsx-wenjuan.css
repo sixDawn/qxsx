@@ -1,0 +1,89 @@
+@charset "utf-8";
+/* CSS Document */
+
+.banner{ width:100%; position:relative;}
+.banner img{ width:100%;}
+.smallnav{ color:#289ea2;
+ 		   font-size:38px;
+  		   width:410px;
+   		   line-height:86px;
+   		   text-align:center;
+		   border:2px #289ea2 solid;
+	 	   position:absolute;
+		   top:50%;
+		   left:50%;
+		   border-radius:18px;
+		   margin-left:-207px;
+		   margin-top:-45px;		     		   
+		 }
+.smallnav a{
+	color:#339999;
+}
+.example{ 
+	display:block;
+	font-size:16px;
+	color:#289ea2;
+	position:absolute;
+	left:54%;
+	top:62%;
+		 }
+.question-box{ width:960px;
+			   margin-left:auto;
+			   margin-right:auto;		
+			}
+.platform{
+			margin-top:40px;
+			border-bottom:#f9f9f9 3px solid;		
+	}
+.platform h1{
+			font-size:22px;
+		}
+.platform .ios-box{ margin-right:120px;}
+.platform .android-box{ margin-right:120px;}
+.platform .weixin-box{ margin-right:120px;}
+.platform img{ margin-left:auto; margin-right:auto;}
+.platform  ul{ overflow:hidden; margin-top:44px; margin-left:25px; margin-bottom:60px;}
+.platform li{ float:left;}
+.platform label{ font-size:18px;} 
+.platform input{ margin-top:30px;}
+.web-box label{ padding-left:8px; display:block;}
+
+
+.product-type{ margin-top:60px; border-bottom:#f9f9f9 3px solid;}
+.product-type h1{font-size:22px;}
+.product-type ul{ margin-top:40px; overflow:hidden;}
+.product-type li{ width:256px; line-height:36px; border:2px #aec6c6 solid; font-size:16px; text-align:center; float:left; cursor:pointer;}
+.center{margin-right:90px; margin-left:90px;}
+.more{ margin-bottom:70px;}
+
+
+.refine-type{ margin-top:60px; border-bottom:#f9f9f9 3px solid;}
+.refine-type h1{font-size:22px;}
+.refine-type ul{ margin-top:40px; overflow:hidden;}
+.refine-type li{ width:256px; line-height:36px; border:2px #aec6c6 solid; font-size:16px; text-align:center; float:left; cursor:pointer;}
+.center{margin-right:90px; margin-left:90px;}
+.more{ margin-bottom:70px;}
+
+
+.language{ margin-top:60px; border-bottom:#f9f9f9 3px solid;}
+.language h1{font-size:22px;}
+.language h2{ font-size:14px;}
+.language ul{ overflow:hidden; margin-top:60px; margin-bottom:70px;}
+.language li{ width:196px; line-height:36px; border:2px solid #aec6c6; text-align:center; font-size:16px; float:left; cursor:pointer;}
+.php{ margin-right:53px;}
+.c-java{margin-right:53px;}
+.ob-sw{margin-right:53px;}
+
+.refer{ margin-top:60px;border-bottom:#f9f9f9 3px solid;}
+.refer h1{ font-size:22px; margin-bottom:60px;}
+.refer input{ width:280px; height:40px; font-size:18px;}
+.refer label{ font-size:18px;}
+.refer label.error{ color:red;}
+.refer p{ margin-bottom:30px; margin-left:260px;}
+.address{ margin-bottom:30px;}
+
+
+.miaoshu{ margin-top:60px;}
+.miaoshu h1{font-size:22px; margin-bottom:55px;}
+#miaoshu-info{ width:848px; height:402px; display:block; border: 1px solid #289ea2; border-radius:10px; margin-left:auto; margin-right:auto;}
+#subinfo{ width:400px; line-height:80px; font-size:28px; text-align:center; background-color:#289ea2; color:#FFF; border-radius:8px; margin-left:auto; margin-right:auto; display:block; margin-top:48px; margin-bottom:125px;}

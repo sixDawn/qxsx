@@ -1,0 +1,177 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="description" content="">
+<meta name="keywords" content="">
+<meta http-equiv="Cache-Control" content="no-transform">
+<meta name="renderer" content="webkit">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<title>千行时线问卷</title>
+<link href="css/qxsx-wenjuan.css" rel="stylesheet" type="text/css">
+<link href="css/reset.css" rel="stylesheet" type="text/css">
+<script src="js/jquery.min.js"></script>
+<script src="js/jquery.validate.js"></script>
+</head>
+
+<body>
+<div class="banner">
+ 	<img src="images/banner01.png">
+    <div class="smallnav"><a href="data.html" target="_top">一键获取报价</a></div>
+    <a href="example.html" class="example" target="_blank">——点击查看案例，两天内即可获得报价</a>
+</div>
+<form  class="question-form" action="" method="get" id="question-form" autocomplete="off">
+<div class="question-box">
+	<div class="platform">
+    	<h1>开发平台选择(&nbsp;可多选&nbsp;)</h1>
+        <ul>
+        	<li class="ios-box">
+            	<img src="images/ios_nor.png">
+                <img src="images/ios_pre.png">
+                <label><input type="checkbox" name="ios" class="iosbtn" id="iosbtn" value="IOS应用开发">&nbsp;&nbsp;IOS应用开发</label>
+            </li>
+            <li class="android-box">
+            	<img src="images/and_nor.png">
+                <img src="images/and_pre.png">
+                <label><input type="checkbox" name="android" class="androidbtn" id="androidbtn" value="安卓应用开发">&nbsp;&nbsp;安卓应用开发</label>
+            </li>
+            <li class="weixin-box">
+            	<img src="images/wechat_nor.png">
+                <img src="images/wechat_pre.png">
+                <label><input type="checkbox" name="weixin" class="weixinbtn" id="weixinbtn" value="微信应用开发">&nbsp;&nbsp;微信应用开发</label>
+            </li>
+            <li class="web-box">
+            	<img src="images/web_nor.png">
+                <img src="images/web_pre.png">
+                <label><input type="checkbox" name="web" class="webbtn" id="webbtn" value="网站开发">&nbsp;&nbsp;网站开发</label>
+            </li>
+        </ul>
+    </div>
+    <div class="product-type">
+    	<h1>选择产品类型(&nbsp;若无适项，请选择其他&nbsp;)</h1>
+        <ul>
+        	<li>电子商务（淘宝、京东）</li>
+            <li class="center">信息平台（58、大众点评）</li>
+            <li>生活服务（美团、饿了吗）</li>
+        </ul>
+         <ul>
+        	<li>互联网金融</li>
+            <li class="center">在线教育/视频（爱奇艺）</li>
+            <li>社区论坛（豆瓣、天涯）</li>
+        </ul>
+         <ul>
+        	<li>综合门户（新浪、搜狐）</li>
+            <li class="center">在线旅游（携程、去哪）</li>
+            <li>在线音乐（QQ音乐）</li>
+        </ul>
+         <ul>
+        	<li>垂直媒体（汽车之家）</li>
+            <li class="center">即时通讯（微信、脉脉）</li>
+            <li>企业管理软件</li>
+        </ul>
+         <ul class="more">
+        	<li>其他</li>            
+        </ul>        
+    </div>
+    
+    <div class="refine-type">
+    	<h1>细化分类(&nbsp;若无适项，请选择其他&nbsp;)</h1>
+        <ul>
+        	<li>B2C（天猫、京东）</li>
+            <li class="center">C2C（淘宝、拍拍）</li>
+            <li>B2B（阿里巴巴）</li>
+        </ul>
+         <ul class="more">
+        	<li>跨境电商（速卖通）</li>
+            <li class="center">蘑菇街、美丽说</li>
+            <li>其他</li>
+        </ul>        
+    </div>
+    
+    <div class="language">
+    	<h1>开发语言（选填）</h1>
+        <h2>服务器开发语言</h2>
+        <ul>
+        <li class="php">PHP</li>
+        <li class="c-java">C++及java</li>
+        <li class="ob-sw">object-c级Swift</li>
+        <li class="language-more">其他</li>
+        </ul>
+    </div>
+    <div class="refer">
+    	<h1>参考产品（选填）</h1>
+        <p>
+        <label>参考产品名称：&nbsp;&nbsp;</label><input type="text" class="product" id="product" placeholder="&nbsp;&nbsp;如：淘宝网" name="product">
+        </p>
+        <p>
+        <label>参考产品地址：&nbsp;&nbsp;</label><input type="text" class="address" id="address" placeholder="&nbsp;&nbsp;www.taobao.com" name="address">
+        </p>
+    </div>
+    
+    <div class="miaoshu">
+    	<h1>功能描述</h1>
+        <textarea id="miaoshu-info" name="miaoshu-info"></textarea>        
+    </div>
+    
+    <input type="submit" value="提交信息" id="subinfo">
+</div>
+</form>
+
+<script>
+
+$(".product-type ul li,.refine-type ul li").click(
+
+	function(){
+			$(this).css({"background-color":"#289ea2","color":"#FFF"}).siblings().css({"background-color":"#FFF","color":"#000"});
+
+		    $(this).parent().siblings().children().css({"background-color":"#FFF","color":"#000"});
+		}
+);
+
+$(".language ul li").click(
+
+	function(){
+			$(this).css({"background-color":"#289ea2","color":"#FFF"}).siblings().css({"background-color":"#FFF","color":"#000"});
+		
+		}
+);
+
+$(".ios-box").children().eq(1).hide();
+$(".android-box").children().eq(1).hide();
+$(".weixin-box").children().eq(1).hide();
+$(".web-box").children().eq(1).hide();
+
+$(".iosbtn,.androidbtn,.weixinbtn,.webbtn").click(
+	function(){
+		
+			if($(this).is(':checked')){
+				$(this).parent().prev().prev().hide();
+				$(this).parent().prev().show();		
+			}else{
+				$(this).parent().prev().prev().show();
+				$(this).parent().prev().hide();
+				
+				}
+		}
+)
+
+
+//网址格式验证
+$(document).ready(function(){
+	//登陆表单验证
+	$("#question-form").validate({
+		
+			rules:{
+					address:{url:true}
+				},
+			messages:{
+				
+					address:{url:"&nbsp;&nbsp;请输入正确的网络地址！"}
+				},
+		});
+		
+		
+});
+</script>
+</body>
+</html>
